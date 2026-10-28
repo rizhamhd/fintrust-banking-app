@@ -176,6 +176,36 @@ void main() {
     expect(find.text('Review Transfer'), findsOneWidget);
     expect(tester.takeException(), isNull);
   });
+  testWidgets('login remains usable on a phone with its keyboard open', (
+    tester,
+  ) async {
+    await open(tester, '211:995', size: const Size(390, 844));
+    tester.view.viewInsets = const FakeViewPadding(bottom: 300);
+    addTearDown(tester.view.resetViewInsets);
+    await tester.pumpAndSettle();
+    await tester.enterText(find.byType(TextField).first, 'student@example.com');
+    await tester.enterText(find.byType(TextField).last, 'demo');
+    final login = find.bySemanticsLabel('Log in').last;
+    await tester.ensureVisible(login);
+    await tester.tap(login);
+    await tester.pumpAndSettle();
+    expect(find.byType(TextField), findsNWidgets(6));
+    expect(tester.takeException(), isNull);
+  });
+  testWidgets('desktop navigation works in a wide resizable window', (
+    tester,
+  ) async {
+    await open(tester, '211:1046', size: const Size(1280, 800));
+    await tester.drag(
+      find.byType(SingleChildScrollView),
+      const Offset(0, -300),
+    );
+    await tester.pumpAndSettle();
+    await tester.tap(find.bySemanticsLabel(RegExp(r'^Cards$')).last);
+    await tester.pumpAndSettle();
+    expect(find.text('My Cards'), findsOneWidget);
+    expect(tester.takeException(), isNull);
+  });
   testWidgets('all captured frames render with bundled assets', (tester) async {
     final scenes = capturedScenes;
     for (final id in scenes.keys) {
@@ -187,5 +217,5 @@ void main() {
       );
       await tester.pumpWidget(const SizedBox());
     }
-  });
+  }, tags: 'golden');
 }
