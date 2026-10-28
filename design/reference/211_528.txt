@@ -1,0 +1,55 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/94af94a3-6288-4798-b34d-23e7991d7139";
+const imgCharmTick = `${assetPathPrefix}/ddc19.svg`;
+const imgEllipse28 = `${assetPathPrefix}/f67c8.svg`;
+
+function CharmTick({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[16px]"} data-node-id="229:332" data-name="charm:tick">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCharmTick} />
+    </div>
+  );
+}
+
+export default function TransferSuccess() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="211:528" data-name="Transfer Success">
+      <div className="absolute left-[167px] size-[100px] top-[150px]" data-node-id="211:529">
+        <div className="absolute inset-[0_-4%_-8%_-4%]">
+          <img alt="" className="block max-w-none size-full" src={imgEllipse28} />
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[34px] leading-[normal] left-[85px] not-italic text-[28px] text-black top-[322px] w-[270px]" data-node-id="211:530">
+        Transfer Successful
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[34px] leading-[normal] left-[120px] not-italic text-[28px] text-black top-[423px] w-[199px]" data-node-id="211:531">
+        LKR 10,000,00
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[23px] leading-[normal] left-[110px] not-italic text-[20px] text-black top-[363px] w-[214px]" data-node-id="211:532">{`You have successfully `}</p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[23px] leading-[normal] left-[118px] not-italic text-[20px] text-black top-[548px] w-[198px] whitespace-pre-wrap" data-node-id="211:533">{`03 Oct 2026 ,  13:45`}</p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[23px] leading-[normal] left-[148px] not-italic text-[20px] text-black top-[464px] w-[130px]" data-node-id="211:534">
+        To John Wick
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[23px] leading-[normal] left-[156px] not-italic text-[20px] text-black top-[393px] w-[114px]" data-node-id="211:535">
+        Transferred
+      </p>
+      <div className="absolute bg-[#e8f0fe] h-[55px] left-[20px] rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[815px] w-[400px]" data-node-id="211:536" />
+      <div className="absolute bg-[#1e6bff] h-[55px] left-[20px] rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[725px] w-[400px]" data-node-id="211:537" />
+      <a className="[word-break:break-word] absolute block cursor-pointer font-['Inter:Regular'] font-normal h-[34px] leading-[0] left-[65px] not-italic text-[28px] text-black top-[826px] w-[309px]" data-node-id="229:328">
+        <p className="leading-[normal]">Make Another Transfer</p>
+      </a>
+      <CharmTick className="absolute left-[192px] size-[50px] top-[175px]" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[34px] leading-[normal] left-[133px] not-italic text-[28px] text-white top-[732px] w-[173px]" data-node-id="282:1728">
+        View Receipt
+      </p>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

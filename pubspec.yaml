@@ -1,0 +1,27 @@
+name: fintrust_banking_app
+description: FinTrust banking coursework prototype translated from Figma.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ^3.13.4
+dependencies:
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/design.json
+    - assets/local/
+    - assets/glyphs.json
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/InterVariable.ttf
+    - family: Instrument Sans
+      fonts:
+        - asset: assets/fonts/InstrumentSans-Italic.ttf
+          style: italic

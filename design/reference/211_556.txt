@@ -1,0 +1,76 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/7426bd85-2b8d-4195-a99f-d1952cb89c86";
+const imgBoxiconsGalleryHorizontalEndFilled = `${assetPathPrefix}/e877c.svg`;
+const imgLucideExtendedFlashlightFilled = `${assetPathPrefix}/8ba8b.svg`;
+const imgAkarIconsArrowLeft = `${assetPathPrefix}/44309.svg`;
+const imgRectangle82 = `${assetPathPrefix}/c76a2.svg`;
+
+function BoxiconsGalleryHorizontalEndFilled({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="229:391" data-name="boxicons:gallery-horizontal-end-filled">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBoxiconsGalleryHorizontalEndFilled} />
+    </div>
+  );
+}
+
+function LucideExtendedFlashlightFilled({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="229:384" data-name="lucide-extended:flashlight-filled">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgLucideExtendedFlashlightFilled} />
+    </div>
+  );
+}
+
+function AkarIconsArrowLeft({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="189:207" data-name="akar-icons:arrow-left">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAkarIconsArrowLeft} />
+    </div>
+  );
+}
+
+export default function QrPay() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="211:556" data-name="QR Pay">
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[34px] leading-[normal] left-[124px] not-italic text-[24px] text-black top-[66px] w-[208px]" data-node-id="211:558">
+        QR Code Payment
+      </p>
+      <div className="absolute bg-[#1e6bff] h-[35px] left-[20px] rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[130px] w-[200px]" data-node-id="211:559" />
+      <div className="absolute bg-[#e8f0fe] h-[35px] left-[220px] rounded-[10px] top-[130px] w-[200px]" data-node-id="211:560" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[19px] leading-[normal] left-[77px] not-italic text-[20px] text-black top-[138px] w-[85px]" data-node-id="211:561">
+        Scan QR
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[19px] leading-[normal] left-[286px] not-italic text-[20px] text-black top-[138px] w-[68px]" data-node-id="211:562">
+        My QR
+      </p>
+      <div className="absolute border border-black border-solid left-[19px] rounded-[15px] size-[400px] top-[200px]" data-node-id="211:563" />
+      <div className="absolute left-[60px] size-[320px] top-[240px]" data-node-id="211:564">
+        <div className="absolute inset-[-0.16%]">
+          <img alt="" className="block max-w-none size-full" src={imgRectangle82} />
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[30px] leading-[normal] left-[23px] not-italic text-[24px] text-black top-[620px] w-[396px]" data-node-id="211:565">
+        Align the QR code within the frame
+      </p>
+      <div className="absolute bg-[#e8f0fe] left-[83px] rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] size-[80px] top-[690px]" data-node-id="211:566" />
+      <div className="absolute bg-[#e8f0fe] left-[280px] rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] size-[80px] top-[690px]" data-node-id="211:567" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[24px] leading-[normal] left-[86px] not-italic text-[16px] text-black top-[780px] w-[74px]" data-node-id="211:568">
+        Flashlight
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[24px] leading-[normal] left-[291px] not-italic text-[16px] text-black top-[780px] w-[57px]" data-node-id="211:569">
+        Gallery
+      </p>
+      <AkarIconsArrowLeft className="absolute block cursor-pointer left-[25px] size-[30px] top-[55px]" />
+      <LucideExtendedFlashlightFilled className="absolute left-[98px] size-[50px] top-[705px]" />
+      <BoxiconsGalleryHorizontalEndFilled className="absolute left-[295px] size-[50px] top-[705px]" />
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

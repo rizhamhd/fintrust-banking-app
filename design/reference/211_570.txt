@@ -1,0 +1,155 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/809fb078-ae48-4e19-b9f9-fb553a935a2e";
+const imgFluentBuildingGovernmentSearch32Filled = `${assetPathPrefix}/3c8c6.svg`;
+const imgMdiShieldCar = `${assetPathPrefix}/a49bc.svg`;
+const imgFa7SolidSchoolCircleCheck = `${assetPathPrefix}/6d459.svg`;
+const imgGroup = `${assetPathPrefix}/ab56f.svg`;
+const imgMdiTelevisionBox = `${assetPathPrefix}/68ded.svg`;
+const imgEmojioneV1PotableWater = `${assetPathPrefix}/2a47f.svg`;
+const imgAndrsrxnPowerPole = `${assetPathPrefix}/be64c.svg`;
+const imgFluentIosArrowRtl24Filled = `${assetPathPrefix}/1ee26.svg`;
+const imgAkarIconsArrowLeft = `${assetPathPrefix}/44309.svg`;
+
+function FluentBuildingGovernmentSearch32Filled({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[16px]"} data-node-id="229:462" data-name="fluent:building-government-search-32-filled">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFluentBuildingGovernmentSearch32Filled} />
+    </div>
+  );
+}
+
+function MdiShieldCar({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="229:457" data-name="mdi:shield-car">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMdiShieldCar} />
+    </div>
+  );
+}
+
+function Fa7SolidSchoolCircleCheck({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[20px]"} data-node-id="229:452" data-name="fa7-solid:school-circle-check">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFa7SolidSchoolCircleCheck} />
+    </div>
+  );
+}
+
+function AndrsrxnWifiInOut({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="229:445" data-name="andrsrxn:wifi-in-out">
+      <div className="absolute inset-[19.58%_6.33%_19.5%_6.92%]" data-node-id="229:442" data-name="Group">
+        <div className="absolute inset-[-5.13%_-3.6%]">
+          <img alt="" className="block max-w-none size-full" src={imgGroup} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function MdiTelevisionBox({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="229:438" data-name="mdi:television-box">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMdiTelevisionBox} />
+    </div>
+  );
+}
+
+function EmojioneV1PotableWater({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[16px]"} data-node-id="229:427" data-name="emojione-v1:potable-water">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEmojioneV1PotableWater} />
+    </div>
+  );
+}
+
+function AndrsrxnPowerPole({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="229:416" data-name="andrsrxn:power-pole">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAndrsrxnPowerPole} />
+    </div>
+  );
+}
+
+function FluentIosArrowRtl24Filled({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="193:254" data-name="fluent:ios-arrow-rtl-24-filled">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFluentIosArrowRtl24Filled} />
+    </div>
+  );
+}
+
+function AkarIconsArrowLeft({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="189:207" data-name="akar-icons:arrow-left">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAkarIconsArrowLeft} />
+    </div>
+  );
+}
+
+export default function BillPayments() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="211:570" data-name="Bill Payments">
+      <div className="absolute border border-[#e8f0fe] border-solid h-[70px] left-[20px] rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[140px] w-[400px]" data-node-id="211:571" />
+      <div className="absolute border border-[#e8f0fe] border-solid h-[70px] left-[20px] rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[710px] w-[400px]" data-node-id="211:574" />
+      <div className="absolute border border-[#e8f0fe] border-solid h-[70px] left-[20px] rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[615px] w-[400px]" data-node-id="211:575" />
+      <div className="absolute border border-[#e8f0fe] border-solid h-[70px] left-[20px] rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[520px] w-[400px]" data-node-id="211:576" />
+      <div className="absolute border border-[#e8f0fe] border-solid h-[70px] left-[20px] rounded-[10px] top-[330px] w-[400px]" data-node-id="211:577" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[30px] leading-[normal] left-[116px] not-italic text-[20px] text-black top-[160px] w-[99px]" data-node-id="211:578">
+        Electricity
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[30px] leading-[normal] left-[116px] not-italic text-[20px] text-black top-[730px] w-[224px]" data-node-id="211:579">
+        Government Payments
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[30px] leading-[normal] left-[116px] not-italic text-[20px] text-black top-[635px] w-[99px]" data-node-id="211:580">
+        Insurance
+      </p>
+      <div className="absolute border border-[#e8f0fe] border-solid h-[70px] left-[20px] rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[425px] w-[400px]" data-node-id="211:581" />
+      <div className="absolute border border-[#e8f0fe] border-solid h-[70px] left-[20px] rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[235px] w-[400px]" data-node-id="211:582" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[30px] leading-[normal] left-[116px] not-italic text-[20px] text-black top-[540px] w-[124px]" data-node-id="211:583">
+        School Fees
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[30px] leading-[normal] left-[116px] not-italic text-[20px] text-black top-[445px] w-[124px]" data-node-id="211:584">
+        Connectivity
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[26px] leading-[normal] left-[140px] not-italic text-[24px] text-black top-[65px] w-[160px]" data-node-id="211:586">
+        Bill Payments
+      </p>
+      <div className="absolute bg-[#e8f0fe] left-[40px] rounded-[5px] size-[50px] top-[150px]" data-node-id="211:587" />
+      <div className="absolute bg-[#e8f0fe] left-[40px] rounded-[5px] size-[50px] top-[720px]" data-node-id="211:588" />
+      <div className="absolute bg-[#e8f0fe] left-[40px] rounded-[5px] size-[50px] top-[530px]" data-node-id="211:589" />
+      <div className="absolute bg-[#e8f0fe] left-[40px] rounded-[5px] size-[50px] top-[623px]" data-node-id="211:590" />
+      <div className="absolute bg-[#e8f0fe] left-[40px] rounded-[5px] size-[50px] top-[435px]" data-node-id="211:591" />
+      <div className="absolute bg-[#e8f0fe] left-[40px] rounded-[5px] size-[50px] top-[340px]" data-node-id="211:592" />
+      <div className="absolute bg-[#e8f0fe] left-[40px] rounded-[5px] size-[50px] top-[245px]" data-node-id="211:593" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[30px] leading-[normal] left-[116px] not-italic text-[20px] text-black top-[350px] w-[99px]" data-node-id="211:594">
+        Television
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[30px] leading-[normal] left-[116px] not-italic text-[20px] text-black top-[255px] w-[99px]" data-node-id="211:595">
+        Water
+      </p>
+      <AkarIconsArrowLeft className="absolute block cursor-pointer left-[25px] size-[30px] top-[56px]" />
+      <FluentIosArrowRtl24Filled className="absolute left-[365px] size-[30px] top-[160px]" />
+      <FluentIosArrowRtl24Filled className="absolute left-[365px] size-[30px] top-[255px]" />
+      <FluentIosArrowRtl24Filled className="absolute left-[365px] size-[30px] top-[350px]" />
+      <FluentIosArrowRtl24Filled className="absolute left-[365px] size-[30px] top-[445px]" />
+      <FluentIosArrowRtl24Filled className="absolute left-[365px] size-[30px] top-[535px]" />
+      <FluentIosArrowRtl24Filled className="absolute left-[365px] size-[30px] top-[635px]" />
+      <FluentIosArrowRtl24Filled className="absolute left-[365px] size-[30px] top-[730px]" />
+      <AndrsrxnPowerPole className="absolute left-[45px] size-[40px] top-[155px]" />
+      <EmojioneV1PotableWater className="absolute left-[45px] size-[40px] top-[250px]" />
+      <MdiTelevisionBox className="absolute left-[45px] size-[40px] top-[345px]" />
+      <AndrsrxnWifiInOut className="absolute left-[45px] size-[40px] top-[440px]" />
+      <Fa7SolidSchoolCircleCheck className="absolute left-[45px] size-[40px] top-[535px]" />
+      <MdiShieldCar className="absolute left-[45px] size-[40px] top-[628px]" />
+      <FluentBuildingGovernmentSearch32Filled className="absolute left-[45px] size-[40px] top-[725px]" />
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

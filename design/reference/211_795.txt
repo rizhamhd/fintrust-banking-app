@@ -1,0 +1,111 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/507038de-d85c-42c4-8ba0-fcba07cb1f29";
+const imgGriddyIconsTermDepositFilled = `${assetPathPrefix}/831e5.svg`;
+const imgIconParkOutlineBill = `${assetPathPrefix}/152a5.svg`;
+const imgGroup = `${assetPathPrefix}/edab3.svg`;
+const imgAkarIconsArrowLeft = `${assetPathPrefix}/44309.svg`;
+const imgEllipse11 = `${assetPathPrefix}/5ac48.svg`;
+const imgEllipse12 = `${assetPathPrefix}/57b0b.svg`;
+
+function GriddyIconsTermDepositFilled({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="220:1660" data-name="griddy-icons:term-deposit-filled">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGriddyIconsTermDepositFilled} />
+    </div>
+  );
+}
+
+function IconParkOutlineBill({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="261:419" data-name="icon-park-outline:bill">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconParkOutlineBill} />
+    </div>
+  );
+}
+
+function HugeiconsSaveMoneyDollar({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="261:411" data-name="hugeicons:save-money-dollar">
+      <div className="absolute inset-[8.34%_12.51%_8.33%_12.5%]" data-node-id="261:407" data-name="Group">
+        <div className="absolute inset-[-3.75%_-4.17%]">
+          <img alt="" className="block max-w-none size-full" src={imgGroup} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function AkarIconsArrowLeft({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="189:207" data-name="akar-icons:arrow-left">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAkarIconsArrowLeft} />
+    </div>
+  );
+}
+
+export default function FinancialInsights() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="211:795" data-name="Financial Insights">
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[25px] leading-[normal] left-[121px] not-italic text-[24px] text-black top-[67px] w-[197px]" data-node-id="211:797">
+        Financial Insights
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[25px] leading-[normal] left-[29px] not-italic text-[24px] text-black top-[380px] w-[211px]" data-node-id="211:798">
+        Personalized Tips
+      </p>
+      <div className="absolute bg-[#e8f0fe] border border-[#e8f0fe] border-solid h-[200px] left-[20px] rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[130px] w-[400px]" data-node-id="211:799" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[25px] leading-[normal] left-[60px] not-italic text-[24px] text-black top-[155px] w-[240px]" data-node-id="211:800">{`You spend 12% more `}</p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[25px] leading-[normal] left-[60px] not-italic text-[24px] text-black top-[178px] w-[300px]" data-node-id="211:801">
+        on shopping this month.
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Light'] font-light h-[25px] leading-[normal] left-[60px] not-italic text-[20px] text-black top-[227px] w-[327px]" data-node-id="211:802">
+        Try setting a monthly limit to
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Light'] font-light h-[25px] leading-[normal] left-[90px] not-italic text-[20px] text-black top-[458px] w-[290px] whitespace-pre-wrap" data-node-id="260:400">{`Save LKR 5,000 more to reach  `}</p>
+      <p className="[word-break:break-word] absolute font-['Inter:Light'] font-light h-[25px] leading-[normal] left-[90px] not-italic text-[20px] text-black top-[571px] w-[290px]" data-node-id="261:402">
+        Your Utility bills are lower than
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Light'] font-light h-[25px] leading-[normal] left-[90px] not-italic text-[20px] text-black top-[684px] w-[230px]" data-node-id="261:404">
+        Confider a fixed deposit
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Light'] font-light h-[25px] leading-[normal] left-[90px] not-italic text-[20px] text-black top-[483px] w-[150px]" data-node-id="260:401">
+        your goal faster.
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Light'] font-light h-[25px] leading-[normal] left-[90px] not-italic text-[20px] text-black top-[596px] w-[210px]" data-node-id="261:403">
+        last month, Good Job!
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Light'] font-light h-[25px] leading-[normal] left-[90px] not-italic text-[20px] text-black top-[709px] w-[160px]" data-node-id="261:405">
+        for batter returns
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Light'] font-light h-[25px] leading-[normal] left-[60px] not-italic text-[20px] text-black top-[252px] w-[262px]" data-node-id="211:803">
+        Control your spending.
+      </p>
+      <div className="absolute left-[189px] size-[10px] top-[292px]" data-node-id="211:804">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse11} />
+      </div>
+      <div className="absolute left-[221px] size-[10px] top-[292px]" data-node-id="211:805">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse12} />
+      </div>
+      <div className="absolute left-[205px] size-[10px] top-[292px]" data-node-id="211:806">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse12} />
+      </div>
+      <div className="absolute border border-[#e8f0fe] border-solid h-[80px] left-[20px] rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[438px] w-[400px]" data-node-id="211:807" />
+      <div className="absolute border border-[#e8f0fe] border-solid h-[80px] left-[20px] rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[551px] w-[400px]" data-node-id="211:808" />
+      <div className="absolute border border-[#e8f0fe] border-solid h-[80px] left-[20px] rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[664px] w-[400px]" data-node-id="211:809" />
+      <div className="absolute bg-[#e8f0fe] left-[40px] rounded-[10px] size-[40px] top-[458px]" data-node-id="211:810" />
+      <div className="absolute bg-[#e8f0fe] left-[40px] rounded-[10px] size-[40px] top-[571px]" data-node-id="211:811" />
+      <div className="absolute bg-[#e8f0fe] left-[40px] rounded-[10px] size-[40px] top-[684px]" data-node-id="211:812" />
+      <AkarIconsArrowLeft className="absolute block cursor-pointer left-[25px] size-[30px] top-[55px]" />
+      <HugeiconsSaveMoneyDollar className="absolute left-[45px] size-[30px] top-[463px]" />
+      <IconParkOutlineBill className="absolute left-[45px] size-[30px] top-[576px]" />
+      <GriddyIconsTermDepositFilled className="absolute left-[45px] size-[30px] top-[689px]" />
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

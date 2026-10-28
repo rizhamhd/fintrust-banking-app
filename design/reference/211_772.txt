@@ -1,0 +1,96 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/fd1cdadd-b84b-49b8-ac11-f0247ce014aa";
+const imgFluentIosArrowRtl24Filled = `${assetPathPrefix}/1ee26.svg`;
+const imgAkarIconsArrowLeft = `${assetPathPrefix}/44309.svg`;
+const imgEllipse31 = `${assetPathPrefix}/baa3d.svg`;
+const imgEllipse32 = `${assetPathPrefix}/b25b3.svg`;
+const imgEllipse33 = `${assetPathPrefix}/eca80.svg`;
+const imgEllipse34 = `${assetPathPrefix}/728bd.svg`;
+const imgEllipse35 = `${assetPathPrefix}/1c726.svg`;
+
+function FluentIosArrowRtl24Filled({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="193:254" data-name="fluent:ios-arrow-rtl-24-filled">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFluentIosArrowRtl24Filled} />
+    </div>
+  );
+}
+
+function AkarIconsArrowLeft({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="189:207" data-name="akar-icons:arrow-left">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAkarIconsArrowLeft} />
+    </div>
+  );
+}
+
+export default function BudgetAndSpending() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="211:772" data-name="Budget And Spending">
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[25px] leading-[normal] left-[103px] not-italic text-[24px] text-black top-[67px] w-[251px]" data-node-id="211:774">
+        Budget And Spending
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[25px] leading-[normal] left-[75px] not-italic text-[16px] text-black top-[645px] w-[111px]" data-node-id="211:775">{`Food & Dining`}</p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[20px] leading-[normal] left-[377px] not-italic text-[16px] text-black top-[645px] w-[38px]" data-node-id="211:776">
+        35%
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[20px] leading-[normal] left-[377px] not-italic text-[16px] text-black top-[695px] w-[38px]" data-node-id="211:777">
+        20%
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[20px] leading-[normal] left-[377px] not-italic text-[16px] text-black top-[745px] w-[38px]" data-node-id="211:778">
+        15%
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[20px] leading-[normal] left-[377px] not-italic text-[16px] text-black top-[795px] w-[38px]" data-node-id="211:779">
+        15%
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[20px] leading-[normal] left-[377px] not-italic text-[16px] text-black top-[845px] w-[38px]" data-node-id="211:780">
+        15%
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[25px] leading-[normal] left-[75px] not-italic text-[16px] text-black top-[695px] w-[80px]" data-node-id="211:781">
+        Transport
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[25px] leading-[normal] left-[75px] not-italic text-[16px] text-black top-[745px] w-[80px]" data-node-id="211:782">
+        Shopping
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[25px] leading-[normal] left-[75px] not-italic text-[16px] text-black top-[795px] w-[111px]" data-node-id="211:783">{`Bills & Utilities`}</p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[25px] leading-[normal] left-[75px] not-italic text-[16px] text-black top-[845px] w-[60px]" data-node-id="211:784">
+        Others
+      </p>
+      <div className="absolute bg-[#e8f0fe] h-[80px] left-[20px] rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[134px] w-[400px]" data-node-id="211:785" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[25px] leading-[normal] left-[162px] not-italic text-[20px] text-black top-[161px] w-[116px]" data-node-id="211:787">
+        This Month
+      </p>
+      <div className="absolute left-[20px] size-[30px] top-[645px]" data-node-id="211:790">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse31} />
+      </div>
+      <div className="absolute left-[20px] size-[30px] top-[695px]" data-node-id="211:791">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse32} />
+      </div>
+      <div className="absolute left-[20px] size-[30px] top-[745px]" data-node-id="211:792">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse33} />
+      </div>
+      <div className="absolute left-[20px] size-[30px] top-[795px]" data-node-id="211:793">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse34} />
+      </div>
+      <div className="absolute left-[20px] size-[30px] top-[845px]" data-node-id="211:794">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse35} />
+      </div>
+      <AkarIconsArrowLeft className="absolute block cursor-pointer left-[25px] size-[30px] top-[55px]" />
+      <FluentIosArrowRtl24Filled className="absolute flex items-center justify-center left-[85px] size-[30px] top-[159px]" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[20px] leading-[normal] left-[152px] not-italic text-[24px] text-black top-[420px] w-[135px]" data-node-id="236:686">
+        LKR 48,250
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[20px] leading-[normal] left-[163px] not-italic text-[20px] text-black top-[450px] w-[114px]" data-node-id="236:687">
+        Total Spend
+      </p>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

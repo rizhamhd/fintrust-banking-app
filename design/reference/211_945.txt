@@ -1,0 +1,60 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/990d4cc4-0ee6-4899-bc89-33dfd1850f56";
+const imgShot202610192112281 = `${assetPathPrefix}/5a515.png`;
+const imgEllipse1 = `${assetPathPrefix}/423fb.svg`;
+const imgVector = `${assetPathPrefix}/d574a.svg`;
+const imgVector1 = `${assetPathPrefix}/167d9.svg`;
+const imgVector2 = `${assetPathPrefix}/34072.svg`;
+
+export default function Start() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="211:945" data-name="Start">
+      <div className="absolute left-[150px] size-[140px] top-[261px]" data-node-id="211:946">
+        <div className="absolute inset-[0_-2.86%_-5.71%_-2.86%]">
+          <img alt="" className="block max-w-none size-full" src={imgEllipse1} />
+        </div>
+      </div>
+      <div className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[106px] leading-[0] left-[134px] not-italic text-[0px] text-black top-[450px] w-[172px] whitespace-pre-wrap" data-node-id="211:947">
+        <p className="font-['Inter:Medium'] font-medium mb-0">
+          <span className="leading-[normal] text-[48px]">{` `}</span>
+          <span className="leading-[normal] text-[#0f172a] text-[40px]">Fin</span>
+          <span className="leading-[normal] text-[#2563eb] text-[40px]">Trust</span>
+          <span className="leading-[normal] text-[48px]">{` `}</span>
+        </p>
+        <p className="font-['Inter:Medium'] font-medium">
+          <span className="leading-[normal] text-[28px]">{`  `}</span>
+          <span className="leading-[normal] text-[26px]">Digital Bank</span>
+        </p>
+      </div>
+      <div className="absolute left-[150px] rounded-[100px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] size-[140px] top-[261px]" data-node-id="256:358" data-name="Shot-2026-10-19-211228 1">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[100px]">
+          <img alt="" className="absolute h-[109.82%] left-[-4.35%] max-w-none top-[-4.46%] w-[110%]" src={imgShot202610192112281} />
+        </div>
+      </div>
+      <div className="absolute h-[206px] left-0 top-[571px] w-[440px]" data-node-id="295:698" data-name="Vector">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector} />
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[35px] leading-[normal] left-[34px] not-italic text-[24px] text-black top-[623px] w-[372px]" data-node-id="211:948">
+        Banking For a Brighter Tomorrow
+      </p>
+      <div className="absolute h-[206px] left-0 top-[658px] w-[440px]" data-node-id="295:697" data-name="Vector">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector1} />
+      </div>
+      <div className="absolute h-[206px] left-0 top-[750px] w-[440px]" data-node-id="295:696" data-name="Vector">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector2} />
+      </div>
+      <div className="absolute left-[122px] size-[5px] top-[838px]" data-node-id="296:708" data-name="Progress Bar">
+        <div className="absolute bg-[rgba(255,255,255,0.25)] h-[5px] left-0 rounded-[999px] top-0 w-[220px]" data-node-id="I296:708;296:699" />
+        <div className="absolute bg-white h-[5px] left-0 rounded-[999px] top-0 w-[220px]" data-node-id="I296:708;296:700" />
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

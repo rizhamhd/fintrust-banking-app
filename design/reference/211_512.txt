@@ -1,0 +1,72 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/b1e13faa-dcce-4ee4-a6e9-3e9611599517";
+const imgAkarIconsArrowLeft = `${assetPathPrefix}/44309.svg`;
+const imgJohnwick2 = `${assetPathPrefix}/8faca.png`;
+const imgEllipse28 = `${assetPathPrefix}/0c5aa.svg`;
+const imgEllipse39 = `${assetPathPrefix}/d4e3b.svg`;
+
+function AkarIconsArrowLeft({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="189:207" data-name="akar-icons:arrow-left">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAkarIconsArrowLeft} />
+    </div>
+  );
+}
+
+export default function TransferDetails() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="211:512" data-name="Transfer Details">
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[34px] leading-[normal] left-[139px] not-italic text-[24px] text-black top-[68px] w-[184px]" data-node-id="211:514">
+        Transfer Details
+      </p>
+      <div className="absolute left-[50px] size-[70px] top-[185px]" data-node-id="211:515">
+        <div className="absolute inset-[0_-5.71%_-11.43%_-5.71%]">
+          <img alt="" className="block max-w-none size-full" src={imgEllipse28} />
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[23px] leading-[normal] left-[141px] not-italic text-[20px] text-black top-[197px] w-[109px]" data-node-id="211:516">
+        John Wick
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Light'] font-light h-[30px] leading-[normal] left-[141px] not-italic text-[20px] text-black top-[225px] w-[137px]" data-node-id="211:517">
+        ********7755
+      </p>
+      <div className="absolute border border-[#e8f0fe] border-solid h-[100px] left-[20px] rounded-[10px] top-[311px] w-[400px]" data-node-id="211:518" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[34px] leading-[normal] left-[60px] not-italic text-[#0d47a1] text-[32px] top-[350px] w-[180px]" data-node-id="211:519">
+        LKR 10,000
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Light'] font-light h-[23px] leading-[normal] left-[51px] not-italic text-[20px] text-black top-[321px] w-[79px]" data-node-id="211:520">
+        Amount
+      </p>
+      <div className="absolute border border-[#e8f0fe] border-solid h-[55px] left-[20px] rounded-[10px] top-[522px] w-[400px]" data-node-id="211:521" />
+      <p className="[word-break:break-word] absolute font-['Inter:Light'] font-light h-[23px] leading-[normal] left-[88px] not-italic text-[20px] text-black top-[540px] w-[139px]" data-node-id="211:522">
+        Rent Payment
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[23px] leading-[normal] left-[20px] not-italic text-[20px] text-black top-[465px] w-[211px]" data-node-id="211:523">
+        Add a Note (Optional)
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[23px] leading-[normal] left-[20px] not-italic text-[20px] text-black top-[629px] w-[198px]" data-node-id="211:524">
+        Schedule Transfer
+      </p>
+      <div className="absolute bg-[#0d47a1] h-[28px] left-[363px] rounded-[30px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[624px] w-[57px]" data-node-id="211:525" />
+      <a className="absolute bg-[#1e6bff] block cursor-pointer h-[55px] left-[20px] rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[820px] w-[400px]" data-node-id="211:526" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[34px] leading-[normal] left-[155px] not-italic text-[28px] text-white top-[831px] w-[129px]" data-node-id="211:527">
+        Continue
+      </p>
+      <AkarIconsArrowLeft className="absolute block cursor-pointer left-[25px] size-[30px] top-[55px]" />
+      <div className="absolute left-[391px] size-[28px] top-[624px]" data-node-id="228:306">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse39} />
+      </div>
+      <div className="absolute left-[50px] rounded-[100px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] size-[70px] top-[185px]" data-node-id="252:347" data-name="johnwick 2">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[100px] size-full" src={imgJohnwick2} />
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

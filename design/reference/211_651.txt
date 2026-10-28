@@ -1,0 +1,103 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/1b5c3e67-e3fe-4797-bc80-f56a432f1da6";
+const imgAkarIconsArrowLeft = `${assetPathPrefix}/44309.svg`;
+const imgEllipse40 = `${assetPathPrefix}/3f70d.svg`;
+const imgEllipse42 = `${assetPathPrefix}/d4e3b.svg`;
+
+function AkarIconsArrowLeft({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="189:207" data-name="akar-icons:arrow-left">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAkarIconsArrowLeft} />
+    </div>
+  );
+}
+
+export default function CardControls() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="211:651" data-name="Card Controls">
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[30px] leading-[normal] left-[157px] not-italic text-[24px] text-black top-[67px] w-[159px]" data-node-id="211:654">
+        Card Controls
+      </p>
+      <div className="absolute border border-[#e8f0fe] border-solid h-[80px] left-[20px] rounded-[10px] top-[310px] w-[400px]" data-node-id="211:659" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[23px] leading-[normal] left-[60px] not-italic text-[20px] text-black top-[319px] w-[140px]" data-node-id="211:660">{`Available Limit `}</p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[23px] leading-[normal] left-[60px] not-italic text-[20px] text-black top-[350px] w-[160px]" data-node-id="211:661">
+        LKR 250,000.00
+      </p>
+      <div className="absolute bg-gradient-to-r from-[#1e6bff] h-[150px] left-[20px] rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] to-[#0d47a1] to-[67.788%] top-[130px] w-[400px]" data-node-id="234:537" />
+      <p className="[word-break:break-word] absolute font-['Instrument_Sans:Bold_Italic'] font-bold h-[27px] italic leading-[normal] left-[50px] text-[24px] text-white top-[145px] w-[94px]" data-node-id="234:538" style={{ fontVariationSettings: '"wdth" 100' }}>
+        FinTrust
+      </p>
+      <p className="[word-break:break-word] absolute font-['Instrument_Sans:Bold_Italic'] font-bold h-[27px] italic leading-[normal] left-[343px] text-[24px] text-white top-[240px] w-[57px]" data-node-id="234:539" style={{ fontVariationSettings: '"wdth" 100' }}>
+        VISA
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[20px] leading-[normal] left-[50px] not-italic text-[20px] text-white top-[202px] w-[152px]" data-node-id="234:540">
+        **********4502
+      </p>
+      <AkarIconsArrowLeft className="absolute block cursor-pointer left-[25px] size-[30px] top-[55px]" />
+      <div className="absolute border border-[#e8f0fe] border-solid h-[70px] left-[20px] rounded-[10px] top-[420px] w-[400px]" data-node-id="234:562" />
+      <div className="absolute border border-[#e8f0fe] border-solid h-[70px] left-[20px] rounded-[10px] top-[518px] w-[400px]" data-node-id="234:563" />
+      <div className="absolute border border-[#e8f0fe] border-solid h-[70px] left-[20px] rounded-[10px] top-[616px] w-[400px]" data-node-id="234:564" />
+      <div className="absolute border border-[#e8f0fe] border-solid h-[70px] left-[20px] rounded-[10px] top-[714px] w-[400px]" data-node-id="234:565" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[30px] leading-[normal] left-[40px] not-italic text-[20px] text-black top-[440px] w-[155px]" data-node-id="234:566">
+        Freeze Card
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[30px] leading-[normal] left-[40px] not-italic text-[20px] text-black top-[636px] w-[214px]" data-node-id="234:567">
+        Contactless Payments
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[30px] leading-[normal] left-[40px] not-italic text-[20px] text-black top-[734px] w-[155px]" data-node-id="234:568">
+        ATM Withdrawal
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[30px] leading-[normal] left-[40px] not-italic text-[20px] text-black top-[538px] w-[163px]" data-node-id="234:569">
+        Online Payments
+      </p>
+      <div className="absolute flex h-[28px] items-center justify-center left-[327px] top-[441px] w-[57px]" data-node-id="234:570">
+        <div className="flex-none rotate-180">
+          <div className="bg-[#0d47a1] h-[28px] relative rounded-[30px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] w-[57px]" />
+        </div>
+      </div>
+      <div className="absolute flex items-center justify-center left-[328px] size-[28px] top-[441px]" data-node-id="234:571">
+        <div className="flex-none rotate-180">
+          <div className="relative size-[28px]">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse40} />
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex items-center justify-center left-[328px] size-[28px] top-[441px]" data-node-id="234:572">
+        <div className="flex-none rotate-180">
+          <div className="relative size-[28px]">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse40} />
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-[#0d47a1] h-[28px] left-[327px] rounded-[30px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[539px] w-[57px]" data-node-id="234:573" />
+      <div className="absolute left-[355px] size-[28px] top-[539px]" data-node-id="234:574">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse42} />
+      </div>
+      <div className="absolute left-[355px] size-[28px] top-[539px]" data-node-id="234:575">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse42} />
+      </div>
+      <div className="absolute bg-[#0d47a1] h-[28px] left-[327px] rounded-[30px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[637px] w-[57px]" data-node-id="234:576" />
+      <div className="absolute left-[355px] size-[28px] top-[637px]" data-node-id="234:577">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse42} />
+      </div>
+      <div className="absolute left-[355px] size-[28px] top-[637px]" data-node-id="234:578">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse42} />
+      </div>
+      <div className="absolute bg-[#0d47a1] h-[28px] left-[327px] rounded-[30px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[735px] w-[57px]" data-node-id="234:579" />
+      <div className="absolute left-[355px] size-[28px] top-[735px]" data-node-id="234:580">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse42} />
+      </div>
+      <div className="absolute left-[355px] size-[28px] top-[735px]" data-node-id="234:581">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse42} />
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

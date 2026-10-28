@@ -1,0 +1,346 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/1e67cf65-5425-4cf4-a0b3-f8665d69465d";
+const imgClarityEyeHideLine = `${assetPathPrefix}/6b910.svg`;
+const imgIcBaselinePaid = `${assetPathPrefix}/b27dd.svg`;
+const imgAntDesignHistoryOutlined = `${assetPathPrefix}/397d0.svg`;
+const imgMaskGroup = `${assetPathPrefix}/e907e.svg`;
+const imgGroup = `${assetPathPrefix}/78c8e.svg`;
+const imgBxTransferAlt = `${assetPathPrefix}/90225.svg`;
+const imgIcOutlineLocalGroceryStore = `${assetPathPrefix}/80405.svg`;
+const imgBoxiconsSearchBig = `${assetPathPrefix}/15927.svg`;
+const imgBoxiconsUserFilled = `${assetPathPrefix}/e355d.svg`;
+const imgGroup1 = `${assetPathPrefix}/3a73a.svg`;
+const imgGroup2 = `${assetPathPrefix}/885ed.svg`;
+const imgBoxiconsHomeAlt2Filled = `${assetPathPrefix}/75ed8.svg`;
+const imgBasilArrowUpSolid = `${assetPathPrefix}/eb0a7.svg`;
+const imgEllipse15 = `${assetPathPrefix}/73c0b.svg`;
+const imgEllipse16 = `${assetPathPrefix}/09244.svg`;
+const imgClarityNotificationSolidBadged = `${assetPathPrefix}/928b0.svg`;
+
+function ClarityEyeHideLine({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[18px]"} data-node-id="272:335" data-name="clarity:eye-hide-line">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgClarityEyeHideLine} />
+    </div>
+  );
+}
+
+function IcBaselinePaid({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="214:1610" data-name="ic:baseline-paid">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIcBaselinePaid} />
+    </div>
+  );
+}
+
+function AntDesignHistoryOutlined({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[16px]"} data-node-id="210:179" data-name="ant-design:history-outlined">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAntDesignHistoryOutlined} />
+    </div>
+  );
+}
+
+function IconParkSolidBill({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="210:169" data-name="icon-park-solid:bill">
+      <div className="absolute inset-[8.33%_20.83%]" data-node-id="210:168" data-name="Mask group">
+        <div className="absolute inset-[-5%_-7.14%]">
+          <img alt="" className="block max-w-none size-full" src={imgMaskGroup} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function IconParkOutlineHistoryQuery({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="210:156" data-name="icon-park-outline:history-query">
+      <div className="absolute inset-[12.5%]" data-node-id="210:152" data-name="Group">
+        <div className="absolute inset-[-5.56%]">
+          <img alt="" className="block max-w-none size-full" src={imgGroup} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function BxTransferAlt({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[40px]"} data-node-id="210:148" data-name="bx:transfer-alt">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBxTransferAlt} />
+    </div>
+  );
+}
+
+function IcOutlineLocalGroceryStore({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[30px]"} data-node-id="193:226" data-name="ic:outline-local-grocery-store">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIcOutlineLocalGroceryStore} />
+    </div>
+  );
+}
+
+function BoxiconsSearchBig({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="188:64" data-name="boxicons:search-big">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBoxiconsSearchBig} />
+    </div>
+  );
+}
+
+function BoxiconsUserFilled({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="188:58" data-name="boxicons:user-filled">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBoxiconsUserFilled} />
+    </div>
+  );
+}
+
+function IconParkBankCardOne({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="188:45" data-name="icon-park:bank-card-one">
+      <div className="absolute inset-[14.58%_8.33%]" data-node-id="188:37" data-name="Group">
+        <div className="absolute inset-[-5.88%_-5%]">
+          <img alt="" className="block max-w-none size-full" src={imgGroup1} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function IconParkBankTransfer({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="188:27" data-name="icon-park:bank-transfer">
+      <div className="absolute inset-[20.83%_8.33%]" data-node-id="188:21" data-name="Group">
+        <div className="absolute inset-[-7.14%_-5%]">
+          <img alt="" className="block max-w-none size-full" src={imgGroup2} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function BoxiconsHomeAlt2Filled({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[30px]"} data-node-id="187:19" data-name="boxicons:home-alt-2-filled">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBoxiconsHomeAlt2Filled} />
+    </div>
+  );
+}
+
+function BasilArrowUpSolid({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="182:103" data-name="basil:arrow-up-solid">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBasilArrowUpSolid} />
+    </div>
+  );
+}
+
+export default function HomeDashboard() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="211:1046" data-name="Home Dashboard">
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[23px] leading-[normal] left-[22px] not-italic text-[24px] text-black top-[61px] w-[245px]" data-node-id="211:1047">
+        Good Morning, Rizha!
+      </p>
+      <div className="absolute bg-gradient-to-l from-[#1e6bff] h-[140px] left-[19px] rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] to-[#0d47a1] to-[67.788%] top-[113px] w-[400px]" data-node-id="211:1048" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[20px] leading-[normal] left-[40px] not-italic text-[16px] text-white top-[133px] w-[109px]" data-node-id="211:1049">
+        Total Balance
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[38px] leading-[normal] left-[40px] not-italic text-[36px] text-white top-[158px] w-[274px]" data-node-id="211:1050">
+        LKR 245,850.00
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[30px] leading-[normal] left-[20px] not-italic text-[20px] text-black top-[279px] w-[155px]" data-node-id="211:1051">
+        Quick Actions
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[20px] leading-[normal] left-[40px] not-italic text-[16px] text-white top-[208px] w-[224px]" data-node-id="211:1052">
+        Savings **********4502
+      </p>
+      <div className="absolute bg-[#e8f0fe] left-[123px] rounded-[15px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] size-[80px] top-[321px]" data-node-id="211:1053" />
+      <a className="absolute bg-[#e8f0fe] block cursor-pointer left-[19px] rounded-[15px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] size-[80px] top-[321px]" data-node-id="211:1054" />
+      <a className="absolute bg-[#e8f0fe] block cursor-pointer left-[227px] rounded-[15px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] size-[80px] top-[321px]" data-node-id="211:1055" />
+      <div className="absolute bg-[#e8f0fe] left-[331px] rounded-[15px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] size-[80px] top-[321px]" data-node-id="211:1056" />
+      <a className="absolute bg-[#e8f0fe] block cursor-pointer h-[100px] left-[19px] rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[449px] w-[400px]" data-node-id="211:1057" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[18px] leading-[normal] left-[38px] not-italic text-[16px] text-black top-[459px] w-[165px]" data-node-id="211:1058">
+        Spending This Month
+      </p>
+      <a className="absolute bg-[#e8f0fe] block cursor-pointer h-[100px] left-[19px] rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[579px] w-[400px]" data-node-id="211:1059" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[18px] leading-[normal] left-[38px] not-italic text-[16px] text-black top-[617px] w-[100px]" data-node-id="211:1060">
+        Laptop Fund
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[18px] leading-[normal] left-[38px] not-italic text-[16px] text-black top-[589px] w-[100px]" data-node-id="211:1061">
+        Saving Goals
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[30px] leading-[normal] left-[17px] not-italic text-[20px] text-black top-[707px] w-[200px]" data-node-id="211:1062">
+        Recent Transactions
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[17px] leading-[normal] left-[79px] not-italic text-[14px] text-black top-[820px] w-[51px]" data-node-id="211:1063">
+        Salary
+      </p>
+      <div className="absolute bg-[#e8f0fe] h-[80px] left-0 rounded-[10px] shadow-[0px_4px_4px_0px_rgba(232,240,254,0.25)] top-[876px] w-[440px]" data-node-id="211:1064" />
+      <div className="absolute bg-[#e8f0fe] h-[80px] left-0 rounded-[10px] shadow-[0px_4px_4px_0px_rgba(232,240,254,0.25)] top-[876px] w-[440px]" data-node-id="211:1065" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[17px] leading-[normal] left-[366px] not-italic text-[14px] text-black top-[924px] w-[45px]" data-node-id="211:1067">
+        Profile
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[17px] leading-[normal] left-[203px] not-italic text-[14px] text-black top-[923px] w-[49px]" data-node-id="211:1068">
+        Search
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[17px] leading-[normal] left-[203px] not-italic text-[14px] text-black top-[923px] w-[49px]" data-node-id="211:1069">
+        Search
+      </p>
+      <div className="absolute left-[20px] size-[40px] top-[750px]" data-node-id="211:1070">
+        <div className="absolute inset-[0_-10%_-20%_-10%]">
+          <img alt="" className="block max-w-none size-full" src={imgEllipse15} />
+        </div>
+      </div>
+      <div className="absolute left-[20px] size-[40px] top-[820px]" data-node-id="211:1071">
+        <div className="absolute inset-[0_-10%_-20%_-10%]">
+          <img alt="" className="block max-w-none size-full" src={imgEllipse16} />
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[17px] leading-[normal] left-[79px] not-italic text-[14px] text-black top-[750px] w-[72px]" data-node-id="211:1072">
+        Food City
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Light'] font-light h-[13px] leading-[normal] left-[79px] not-italic text-[12px] text-black top-[770px] w-[37px]" data-node-id="211:1073">
+        Today
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Light'] font-light h-[13px] leading-[normal] left-[79px] not-italic text-[12px] text-black top-[840px] w-[37px]" data-node-id="211:1074">
+        Today
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[17px] leading-[normal] left-[333px] not-italic text-[#ef4444] text-[14px] top-[758px] w-[87px] whitespace-pre-wrap" data-node-id="211:1075">{`  -LKR 3,450`}</p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[17px] leading-[normal] left-[325px] not-italic text-[#00c853] text-[14px] top-[829px] w-[95px] whitespace-pre-wrap" data-node-id="211:1076">{`  +LKR 80,000`}</p>
+      <a className="[word-break:break-word] absolute block cursor-pointer font-['Inter:Regular'] font-normal h-[19px] leading-[0] left-[368px] not-italic text-[14px] text-black top-[712px] w-[51px]" data-node-id="211:1077">
+        <p className="leading-[normal]">See all</p>
+      </a>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[17px] leading-[normal] left-[34px] not-italic text-[14px] text-black top-[924px] w-[41px]" data-node-id="211:1078">
+        Home
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[17px] leading-[normal] left-[34px] not-italic text-[14px] text-black top-[924px] w-[41px]" data-node-id="211:1079">
+        Home
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[17px] leading-[normal] left-[284px] not-italic text-[14px] text-black top-[924px] w-[41px]" data-node-id="211:1080">
+        Cards
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[17px] leading-[normal] left-[284px] not-italic text-[14px] text-black top-[924px] w-[41px]" data-node-id="211:1081">
+        Cards
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[17px] leading-[normal] left-[108px] not-italic text-[14px] text-black top-[924px] w-[64px]" data-node-id="211:1082">
+        Accounts
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[17px] leading-[normal] left-[108px] not-italic text-[14px] text-black top-[924px] w-[64px]" data-node-id="211:1083">
+        Accounts
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[14px] leading-[normal] left-[30px] not-italic text-[14px] text-black top-[411px] w-[58px]" data-node-id="211:1084">
+        Transfer
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[14px] leading-[normal] left-[137px] not-italic text-[14px] text-black top-[411px] w-[51px]" data-node-id="211:1085">
+        History
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[14px] leading-[normal] left-[345px] not-italic text-[14px] text-black top-[411px] w-[51px]" data-node-id="211:1086">
+        Reload
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[14px] leading-[normal] left-[252px] not-italic text-[14px] text-black top-[411px] w-[30px]" data-node-id="211:1087">
+        Bills
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[18px] leading-[normal] left-[38px] not-italic text-[16px] text-black top-[491px] w-[165px]" data-node-id="211:1088">
+        LKR 48,250.00
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Light'] font-light h-[18px] leading-[normal] left-[55px] not-italic text-[#64748b] text-[13px] top-[519px] w-[137px]" data-node-id="211:1089">
+        12% from last month
+      </p>
+      <div className="absolute bg-white h-[10px] left-[40px] rounded-[10px] top-[640px] w-[350px]" data-node-id="211:1091" />
+      <div className="absolute bg-[#00c853] h-[10px] left-[40px] rounded-[10px] top-[640px] w-[250px]" data-node-id="229:310" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[16px] leading-[normal] left-[358px] not-italic text-[16px] text-black top-[620px] w-[35px]" data-node-id="211:1092">
+        72%
+      </p>
+      <a className="absolute block cursor-pointer left-[385px] size-[30px] top-[57px]" data-node-id="211:1093" data-name="clarity:notification-solid-badged">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgClarityNotificationSolidBadged} />
+      </a>
+      <BasilArrowUpSolid className="absolute flex items-center justify-center left-[36px] size-[24px] top-[513px]" />
+      <BoxiconsHomeAlt2Filled className="absolute left-[40px] size-[30px] top-[890px]" />
+      <IconParkBankTransfer className="absolute left-[290px] size-[30px] top-[890px]" />
+      <IconParkBankTransfer className="absolute block cursor-pointer left-[290px] size-[30px] top-[890px]" />
+      <IconParkBankCardOne className="absolute left-[125px] size-[30px] top-[890px]" />
+      <IconParkBankCardOne className="absolute block cursor-pointer left-[125px] size-[30px] top-[890px]" />
+      <BoxiconsUserFilled className="absolute left-[372px] size-[30px] top-[890px]" />
+      <BoxiconsUserFilled className="absolute block cursor-pointer left-[372px] size-[30px] top-[890px]" />
+      <BoxiconsSearchBig className="absolute left-[213px] size-[30px] top-[890px]" />
+      <BoxiconsSearchBig className="absolute block cursor-pointer left-[213px] size-[30px] top-[890px]" />
+      <IcOutlineLocalGroceryStore className="absolute left-[25px] size-[30px] top-[758px]" />
+      <BxTransferAlt className="absolute left-[34px] size-[50px] top-[336px]" />
+      <IconParkOutlineHistoryQuery className="absolute block cursor-pointer left-[138px] size-[50px] top-[336px]" />
+      <IconParkSolidBill className="absolute left-[242px] size-[50px] top-[336px]" />
+      <AntDesignHistoryOutlined className="absolute block cursor-pointer left-[346px] size-[50px] top-[336px]" />
+      <IcBaselinePaid className="absolute left-[25px] size-[30px] top-[825px]" />
+      <div className="absolute flex h-[61px] items-center justify-center left-[340px] top-[470px] w-[10px]" data-node-id="229:311">
+        <div className="flex-none rotate-90">
+          <div className="bg-[#78a9ff] h-[10px] relative rounded-[10px] w-[61px]" />
+        </div>
+      </div>
+      <div className="absolute flex h-[51px] items-center justify-center left-[340px] top-[480px] w-[10px]" data-node-id="229:318">
+        <div className="flex-none rotate-90">
+          <div className="bg-[#0d99ff] h-[10px] relative rounded-[10px] w-[51px]" />
+        </div>
+      </div>
+      <div className="absolute flex h-[51px] items-center justify-center left-[321px] top-[480px] w-[10px]" data-node-id="229:312">
+        <div className="-rotate-90 flex-none">
+          <div className="bg-[#78a9ff] h-[10px] relative rounded-[10px] w-[51px]" />
+        </div>
+      </div>
+      <div className="absolute flex h-[41px] items-center justify-center left-[321px] top-[490px] w-[10px]" data-node-id="229:319">
+        <div className="-rotate-90 flex-none">
+          <div className="bg-[#0d99ff] h-[10px] relative rounded-[10px] w-[41px]" />
+        </div>
+      </div>
+      <div className="absolute flex h-[41px] items-center justify-center left-[300px] top-[490px] w-[10px]" data-node-id="229:313">
+        <div className="-rotate-90 flex-none">
+          <div className="bg-[#78a9ff] h-[10px] relative rounded-[10px] w-[41px]" />
+        </div>
+      </div>
+      <div className="absolute flex h-[31px] items-center justify-center left-[300px] top-[500px] w-[10px]" data-node-id="229:320">
+        <div className="-rotate-90 flex-none">
+          <div className="bg-[#0d99ff] h-[10px] relative rounded-[10px] w-[31px]" />
+        </div>
+      </div>
+      <div className="absolute flex h-[41px] items-center justify-center left-[360px] top-[490px] w-[10px]" data-node-id="229:316">
+        <div className="-rotate-90 flex-none">
+          <div className="bg-[#78a9ff] h-[10px] relative rounded-[10px] w-[41px]" />
+        </div>
+      </div>
+      <div className="absolute flex h-[31px] items-center justify-center left-[360px] top-[500px] w-[10px]" data-node-id="229:317">
+        <div className="-rotate-90 flex-none">
+          <div className="bg-[#0d99ff] h-[10px] relative rounded-[10px] w-[31px]" />
+        </div>
+      </div>
+      <div className="absolute flex h-[31px] items-center justify-center left-[279px] top-[500px] w-[10px]" data-node-id="229:314">
+        <div className="-rotate-90 flex-none">
+          <div className="bg-[#78a9ff] h-[10px] relative rounded-[10px] w-[31px]" />
+        </div>
+      </div>
+      <div className="absolute flex h-[22px] items-center justify-center left-[279px] top-[509px] w-[10px]" data-node-id="229:321">
+        <div className="-rotate-90 flex-none">
+          <div className="bg-[#0d99ff] h-[10px] relative rounded-[10px] w-[22px]" />
+        </div>
+      </div>
+      <div className="absolute flex h-[22px] items-center justify-center left-[258px] top-[509px] w-[10px]" data-node-id="229:315">
+        <div className="-rotate-90 flex-none">
+          <div className="bg-[#78a9ff] h-[10px] relative rounded-[10px] w-[22px]" />
+        </div>
+      </div>
+      <div className="absolute flex h-[15px] items-center justify-center left-[258px] top-[516px] w-[10px]" data-node-id="229:322">
+        <div className="-rotate-90 flex-none">
+          <div className="bg-[#0d99ff] h-[10px] relative rounded-[10px] w-[15px]" />
+        </div>
+      </div>
+      <ClarityEyeHideLine className="absolute left-[376px] size-[30px] top-[140px]" />
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

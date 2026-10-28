@@ -1,0 +1,78 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/a4b8f77d-4b46-42e5-b638-42f0c2835481";
+const imgAkarIconsArrowLeft = `${assetPathPrefix}/44309.svg`;
+const imgJohnwick3 = `${assetPathPrefix}/8faca.png`;
+const imgEllipse28 = `${assetPathPrefix}/0c5aa.svg`;
+
+function AkarIconsArrowLeft({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="189:207" data-name="akar-icons:arrow-left">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAkarIconsArrowLeft} />
+    </div>
+  );
+}
+
+export default function ReviewTransfer() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="211:538" data-name="Review Transfer">
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[34px] leading-[normal] left-[128px] not-italic text-[24px] text-black top-[66px] w-[184px]" data-node-id="211:540">
+        Review Transfer
+      </p>
+      <div className="absolute left-[50px] size-[70px] top-[185px]" data-node-id="211:541">
+        <div className="absolute inset-[0_-5.71%_-11.43%_-5.71%]">
+          <img alt="" className="block max-w-none size-full" src={imgEllipse28} />
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[23px] leading-[normal] left-[141px] not-italic text-[20px] text-black top-[197px] w-[109px]" data-node-id="211:542">
+        John Wick
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[23px] leading-[normal] left-[335px] not-italic text-[20px] text-black top-[549px] w-[85px]" data-node-id="211:543">
+        LKR 3.00
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[23px] leading-[normal] left-[225px] not-italic text-[20px] text-black top-[499px] w-[195px] whitespace-pre-wrap" data-node-id="211:544">{`Today,  03 Oct 2026`}</p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[23px] leading-[normal] left-[283px] not-italic text-[20px] text-black top-[449px] w-[137px]" data-node-id="211:545">
+        To Other Bank
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[23px] leading-[normal] left-[287px] not-italic text-[20px] text-black top-[399px] w-[133px]" data-node-id="211:546">
+        Rent Payment
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[23px] leading-[normal] left-[304px] not-italic text-[20px] text-black top-[349px] w-[116px]" data-node-id="211:547">
+        LKR 10,000
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Light'] font-light h-[30px] leading-[normal] left-[141px] not-italic text-[20px] text-black top-[225px] w-[137px]" data-node-id="211:548">
+        ********7755
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Light'] font-light h-[23px] leading-[normal] left-[23px] not-italic text-[20px] text-black top-[349px] w-[79px]" data-node-id="211:549">
+        Amount
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Light'] font-light h-[23px] leading-[normal] left-[23px] not-italic text-[20px] text-black top-[399px] w-[51px]" data-node-id="211:550">
+        Note
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Light'] font-light h-[23px] leading-[normal] left-[23px] not-italic text-[20px] text-black top-[499px] w-[51px]" data-node-id="211:551">
+        Date
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Light'] font-light h-[23px] leading-[normal] left-[23px] not-italic text-[20px] text-black top-[549px] w-[44px]" data-node-id="211:552">
+        Fee
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Light'] font-light h-[23px] leading-[normal] left-[23px] not-italic text-[20px] text-black top-[449px] w-[137px]" data-node-id="211:553">
+        Transfer Type
+      </p>
+      <a className="absolute bg-[#1e6bff] block cursor-pointer h-[55px] left-[20px] rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[820px] w-[400px]" data-node-id="211:554" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[34px] leading-[normal] left-[104px] not-italic text-[28px] text-white top-[830px] w-[232px]" data-node-id="211:555">
+        Confirm Transfer
+      </p>
+      <AkarIconsArrowLeft className="absolute block cursor-pointer left-[25px] size-[30px] top-[55px]" />
+      <div className="absolute left-[50px] rounded-[100px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] size-[70px] top-[185px]" data-node-id="252:348" data-name="johnwick 3">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[100px] size-full" src={imgJohnwick3} />
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.
