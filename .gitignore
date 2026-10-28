@@ -56,3 +56,6 @@ tool/fig_decoder/node_modules/
 !.env.example
 *.pem
 *.p12
+
+# Machine-specific editor settings
+.vscode/settings.json
