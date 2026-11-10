@@ -711,7 +711,9 @@ class _BankingPrototypeState extends State<BankingPrototype> {
         );
       case '211:950':
         result.addAll([
-          hit('Next onboarding', 40, 845, 80, 56, () => go('211:966')),
+          // "Skip" should bypass the remaining onboarding slides and show
+          // the final Get Started screen.
+          hit('Skip onboarding', 40, 845, 80, 56, () => go('211:982')),
           hit('Next onboarding screen', 337, 842, 65, 65, () => go('211:966')),
         ]);
       case '211:1046':

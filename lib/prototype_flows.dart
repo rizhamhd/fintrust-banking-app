@@ -147,7 +147,12 @@ extension _PrototypeFlows on _BankingPrototypeState {
     }
     if (screen == '211:1250') {
       if (id == '211:1252') text = demo.accountName;
+      // Keep the account balance in the clean LKR format without the old
+      // Sri Lankan "/=" suffix from the original design.
       if (id == '211:1254') text = 'LKR ${money(balance)}';
+    }
+    if (screen == '211:1159' && id == '211:1162') {
+      text = 'LKR ${money(balance)}';
     }
     if (screen == '211:761' && id == '234:609' && demo.goalDate != null) {
       text =
@@ -501,7 +506,7 @@ extension _PrototypeFlows on _BankingPrototypeState {
     switch (screen) {
       case '211:966':
         result.addAll([
-          hit('Next onboarding', 40, 845, 80, 56, () => go('211:982')),
+          hit('Skip onboarding', 40, 845, 80, 56, () => go('211:982')),
           hit('Next onboarding screen', 337, 842, 65, 65, () => go('211:982')),
         ]);
       case '211:982':
